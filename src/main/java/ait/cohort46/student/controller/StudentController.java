@@ -12,7 +12,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-@RestController()
+@RestController
 @RequiredArgsConstructor
 public class StudentController {
     private final StudentService studentService;

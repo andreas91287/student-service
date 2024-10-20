@@ -15,7 +15,7 @@ public class ServiceConfiguration {
         modelMapper.getConfiguration()
                 .setFieldMatchingEnabled(true)
                 .setFieldAccessLevel(AccessLevel.PRIVATE)
-                .setMatchingStrategy(MatchingStrategies.STRICT);
+                .setMatchingStrategy(MatchingStrategies.STRICT); // STANDARD, LOOSE, STRiCT
         return modelMapper;
     }
 }
